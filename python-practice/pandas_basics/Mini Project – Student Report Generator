@@ -1,0 +1,15 @@
+import pandas as pd
+import os
+
+csv_path = os.path.join(os.path.dirname(__file__), "students.csv")
+
+print("CSV Path:", csv_path)
+
+df = pd.read_csv(csv_path)
+
+print("Columns Found:", df.columns.tolist())
+print(df)
+
+print("Average Marks:", df["Marks"].mean())
+print("Highest Marks:", df["Marks"].max())
+print("Lowest Marks:", df["Marks"].min())
