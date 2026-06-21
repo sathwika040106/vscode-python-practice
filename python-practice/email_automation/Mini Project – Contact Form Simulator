@@ -1,0 +1,14 @@
+name = input("Enter Name: ")
+email = input("Enter Email: ")
+message = input("Enter Message: ")
+
+with open("messages.txt", "a") as file:
+
+    file.write(
+        f"Name: {name}\n"
+        f"Email: {email}\n"
+        f"Message: {message}\n"
+        f"{'-'*30}\n"
+    )
+
+print("Message Saved Successfully")
