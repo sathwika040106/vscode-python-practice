@@ -1,0 +1,40 @@
+class Employee:
+
+    company = "OpenAI"
+
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def display(self):
+        print(f"{self.name} - ₹{self.salary}")
+
+
+employees = []
+
+while True:
+
+    print("\n1. Add Employee")
+    print("2. View Employees")
+    print("3. Exit")
+
+    choice = input("Enter Choice: ")
+
+    if choice == "1":
+        name = input("Enter Name: ")
+        salary = float(input("Enter Salary: "))
+        employees.append(Employee(name, salary))
+
+    elif choice == "2":
+        if not employees:
+            print("No Employees Found")
+        else:
+            for emp in employees:
+                emp.display()
+
+    elif choice == "3":
+        print("Program Closed")
+        break
+
+    else:
+        print("Invalid Choice")
