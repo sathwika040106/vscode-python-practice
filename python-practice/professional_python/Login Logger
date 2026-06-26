@@ -1,0 +1,13 @@
+import logging
+
+logging.basicConfig(
+    filename="login.log",
+    level=logging.INFO,
+    format="%(asctime)s - %(message)s"
+)
+
+username = input("Enter Username: ")
+
+logging.info(f"User Login: {username}")
+
+print("Login Recorded")
