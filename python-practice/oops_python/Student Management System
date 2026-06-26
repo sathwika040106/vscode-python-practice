@@ -1,0 +1,36 @@
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+    def display(self):
+        print(f"{self.name} - {self.marks}")
+
+
+students = []
+
+while True:
+    print("\n1. Add Student")
+    print("2. View Students")
+    print("3. Exit")
+
+    choice = input("Enter Choice: ")
+
+    if choice == "1":
+        name = input("Enter Name: ")
+        marks = int(input("Enter Marks: "))
+        students.append(Student(name, marks))
+
+    elif choice == "2":
+        if not students:
+            print("No students found.")
+        else:
+            for student in students:
+                student.display()
+
+    elif choice == "3":
+        print("Thank you!")
+        break
+
+    else:
+        print("Invalid Choice!")
