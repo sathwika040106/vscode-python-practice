@@ -1,0 +1,20 @@
+import matplotlib.pyplot as plt
+
+students = ["Sathwika", "Rahul", "Priya", "Arjun", "Sneha"]
+
+marks = [90, 85, 95, 80, 88]
+
+plt.bar(students, marks)
+
+plt.title("Student Marks Report")
+
+plt.xlabel("Students")
+
+plt.ylabel("Marks")
+
+plt.ylim(0, 100)
+
+for i, mark in enumerate(marks):
+    plt.text(i, mark + 1, str(mark), ha="center")
+
+plt.show()
