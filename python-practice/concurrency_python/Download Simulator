@@ -1,0 +1,33 @@
+import threading
+import time
+
+
+def download(file_name):
+    print(f"Downloading {file_name}...")
+
+    time.sleep(3)
+
+    print(f"{file_name} Download Complete")
+
+
+files = [
+    "Python.pdf",
+    "AI.pdf",
+    "ML.pdf"
+]
+
+threads = []
+
+for file in files:
+
+    thread = threading.Thread(target=download, args=(file,))
+
+    threads.append(thread)
+
+    thread.start()
+
+
+for thread in threads:
+    thread.join()
+
+print("\nAll Downloads Completed")
