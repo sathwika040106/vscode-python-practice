@@ -1,0 +1,24 @@
+import asyncio
+
+
+async def download(file):
+
+    print(f"Downloading {file}...")
+
+    await asyncio.sleep(3)
+
+    print(f"{file} Download Complete")
+
+
+async def main():
+
+    await asyncio.gather(
+        download("Python.pdf"),
+        download("AI.pdf"),
+        download("MachineLearning.pdf")
+    )
+
+    print("\nAll Downloads Completed")
+
+
+asyncio.run(main())
