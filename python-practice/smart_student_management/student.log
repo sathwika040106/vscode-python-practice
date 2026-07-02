@@ -1,0 +1,68 @@
+2026-06-27 00:37:14,212 | INFO | Student Search By Name : sathwika
+2026-06-27 00:37:39,828 | INFO | Application Closed
+2026-06-27 00:52:10,727 | INFO | Application Closed
+2026-06-27 00:52:42,910 | INFO | Student data exported to CSV
+2026-06-27 00:55:09,321 | INFO | Student data exported to CSV
+2026-06-27 00:55:19,315 | INFO | Student data exported to CSV
+2026-06-27 00:55:22,972 | INFO | Application Closed
+2026-06-27 00:59:32,153 | INFO | Viewed Student Analytics
+2026-06-27 00:59:42,063 | INFO | Application Closed
+2026-06-27 01:14:00,715 | INFO | Viewed Bar Chart
+2026-06-27 01:14:10,505 | INFO | Viewed Line Chart
+2026-06-27 01:14:26,164 | INFO | Viewed Pie Chart
+2026-06-27 01:14:30,647 | INFO | Application Closed
+2026-06-27 01:19:19,403 | INFO | Generated Student PDF Report
+2026-06-27 01:19:29,397 | INFO | Application Closed
+2026-06-27 22:39:58,073 | INFO | Application Closed
+2026-06-27 22:54:40,558 | INFO | Application Closed
+2026-06-27 23:08:56,063 | INFO | Application Closed
+2026-06-27 23:10:22,880 | INFO | Application Closed
+2026-06-28 00:14:24,661 | INFO | Application Closed
+2026-06-28 00:26:38,186 | INFO | Application Closed
+2026-06-28 00:29:23,413 | INFO | Student Added : sath
+2026-06-28 01:01:44,593 | INFO | Student Added : kiran
+2026-06-28 01:02:11,600 | INFO | Application Closed
+2026-06-28 22:54:55,573 | INFO | Viewed Student  Dashboard
+2026-06-28 22:54:59,474 | INFO | Viewed Student  Dashboard
+2026-06-28 22:55:05,874 | INFO | Viewed Student  Dashboard
+2026-06-28 22:55:43,518 | INFO | Viewed Student  Dashboard
+2026-06-28 23:04:23,044 | INFO | Viewed Student  Dashboard
+2026-06-28 23:04:24,695 | INFO | Viewed Student  Dashboard
+2026-06-28 23:04:30,000 | INFO | Viewed Student  Dashboard
+2026-06-28 23:04:56,031 | INFO | Application Closed
+2026-06-28 23:21:28,478 | INFO | Search By Maximum Marks : 40
+2026-06-28 23:21:38,897 | INFO | Application Closed
+2026-06-28 23:27:48,981 | INFO | Viewed Student  Dashboard
+2026-06-28 23:28:20,821 | INFO | Application Closed
+2026-06-28 23:36:01,055 | INFO | Database Backup Created
+2026-06-28 23:36:04,329 | INFO | Database Restored
+2026-06-28 23:42:12,018 | INFO | Generated Student PDF Report
+2026-06-28 23:42:32,576 | INFO | Application Closed
+2026-06-28 23:47:45,460 | INFO | Generated Student PDF Report
+2026-06-28 23:48:04,067 | INFO | Application Closed
+2026-06-28 23:58:15,497 | INFO | Generated Student PDF Report
+2026-06-29 00:08:22,372 | INFO | PDF Report Generated
+2026-06-29 00:08:32,011 | INFO | Database Restored
+2026-06-29 00:08:37,144 | INFO | Database Backup Created
+2026-06-29 00:08:41,533 | INFO | Viewed Student Ranking
+2026-06-29 00:18:09,734 | INFO | CSV Exported Successfully
+2026-06-29 00:20:11,063 | INFO | Student Added : balu
+2026-06-29 00:20:16,444 | INFO | Application Closed
+2026-06-29 00:22:00,915 | INFO | CSV Exported Successfully
+2026-06-29 00:23:02,671 | INFO | PDF Report Generated
+2026-06-29 00:23:55,678 | INFO | Database Backup Created
+2026-06-29 00:24:02,458 | INFO | Database Restored
+2026-06-29 00:38:08,349 | INFO | PDF Report Generated
+2026-06-29 00:38:33,858 | INFO | CSV Exported Successfully
+2026-06-29 00:39:13,929 | INFO | Application Closed
+2026-06-29 23:54:14,103 | INFO | PDF Report Generated
+2026-06-29 23:54:36,738 | INFO | CSV Exported Successfully
+2026-06-29 23:55:02,587 | INFO | Application Closed
+2026-06-30 00:08:54,848 | INFO | Application Closed
+2026-07-02 22:03:25,246 | INFO | Student Added : sathwika
+2026-07-02 22:05:18,390 | INFO | Student Updated : 1
+2026-07-02 22:06:31,646 | INFO | Application Closed
+2026-07-02 22:12:09,907 | INFO | Student Added : kiran
+2026-07-02 22:12:56,086 | INFO | Student Added : saranya
+2026-07-02 22:13:44,115 | INFO | Student Added : rajwanth
+2026-07-02 22:13:47,598 | INFO | Application Closed
